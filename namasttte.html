@@ -1,0 +1,100 @@
+<body>
+  <h1>★수록카드★</h1>
+  <script>
+    function linkssetcolor(color){
+      var alist = document.querySelectorAll('h2,h1');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = color;
+        i = i + 1;
+      }
+    }
+    function bodysetcolor(color){
+      document.querySelector('body').style.bodycolor = color;
+  }
+  function bodysetbackgroundcolor(color){
+    document.querySelector('body').style.backgroundcolor = color;
+  }
+     function nightDayHandler(ㅇ){
+       var target = document.querySelector('body');
+       if(ㅇ.value === '수록카드'){
+         bodysetbackgroundcolor('yellow');
+         bodysetcolor('white');
+         ㅇ.value = '카드목록';
+         linkssetcolor('blue');
+       }
+     else {
+         bodysetbackgroundcolor('white');
+         bodysetcolor('yellow');
+         ㅇ.value = '수록카드';
+         linkssetcolor('white');
+       }
+     }
+   </script>
+
+
+  <li><input id="카드목록" type="button" value="수록카드" onclick="
+     nightDayHandler(this);"></li>
+<style>
+h2{color:white;}
+h1{color:white;}
+</style>
+<li><h2>슈팅세이비어스타드래곤</h2>   </li>
+<li><h2>다이가스타라프라무피리카</h2></li>
+<li><h2>성풍랑볼프라이에</h2></li>
+<li><h2>갑전룡가이아무</h2></li>
+<li><h2>노급군관-연어알형일번함 </h2></li>
+<li><h2>오파츠비마나</h2></li>
+<li><h2>흑용룡기볼니게쉬</h2></li>
+<li><h2>고천자룡파이렌</h2></li>
+<li><h2>우주협제로올</h2></li>
+<li><h2>그랜드도레미코드뮤제리아</h2></li>
+<li><h2>격촬디스파라치</h2></li>
+<li><h2>광래하는기적</h2></li>
+<li><h2>스타더스트일루미네이트</h2></li>
+<li><h2>세이비어앱소프션 </h2></li>
+<li><h2>낙인극성데스피아</h2></li>
+<li><h2>낙인개막</h2></li>
+<li><h2>낙인의인연</h2></li>
+<li><h2>마건-마프테아</h2></li>
+<li><h2>마건시해</h2></li>
+<li><h2>군관처해선</h2></li>
+<li><h2>오파츠팰리스-트릴리톤</h2></li>
+<li><h2>기교전-카미츠카와시메노키키에</h2></li>
+<li><h2>가스타의추풍 </h2></li>
+<li><h2>Live☆Twin트러블상</h2></li>
+<li><h2>트라미드로딩</h2></li>
+<li><h2>다이머신서시스</h2></li>
+<li><h2>고상의식술</h2></li
+<li><h2>레토르트퓨전</h2></li>
+<li><h2>싱크로오버테이크</h2></li>
+<li><h2>펜듈럼트레져</h2></li>
+<li><h2>신용거래</h2></li>
+<li><h2>세이비어미라지 </h2></li>
+<li><h2>맺어진마건</h2></li>
+<li><h2>스프리건즈인터루더</h2></li>
+<li><h2>변덕군관쥐기</h2></li>
+<li><h2>오파츠에스페란사그리프</h2></li>
+<li><h2>어메이즈먼트어트랙션뱅퀴시바이킹</h2></li>
+<li><h2>몬스터아리트</h2></li>
+<li><h2>수왕무진 </h2></li>
+<li><h2>스톨턴</h2></li>
+<li><h2>검허의단지</h2></li>
+<li><h2>슈팅스타드래곤</h2></li>
+<li><h2>토큰(슈팅세이비어스타드래곤)</h2></li>
+<li><h2>토큰(인공지능ME-PSY-YA)</h2></li>
+  <script>
+      var coworkers = ['티씨지샵'];
+    </script>
+
+    <script>
+      var i = 0;
+        while(i < coworkers.length){
+          document.write('<li><a href="http://www.tcgshop.co.kr/'+coworkers[i]+'">'
+            +coworkers[i]+'</a></li>');
+          i = i + 1;
+        }
+      </script>
+<li><input id="카드목록" type="button" value="수록카드" onclick="
+ nightDayHandler(this);"></li>
+</body>
